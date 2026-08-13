@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ittiwut Jantamalee</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Ambient Glow Background Effects -->
+    <div class="bg-glow blob-1"></div>
+    <div class="bg-glow blob-2"></div>
+
+    <!-- 3.a. Header (ชื่อตัวเอง & Navigation) -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Ittiwut<span>.dev</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 3.b. About Me & 3.c. รูปภาพโปรแกรม/โลโก้ GitHub -->
+    <section id="about" class="hero">
+        <div class="hero-container">
+            <div class="hero-image-wrapper">
+                <div class="image-border-glow"></div>
+                <!-- 3.c. ใส่รูปภาพอย่างน้อย 1 รูป (ใช้รูป GitHub ตามโจทย์ข้อ 3.c) -->
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Logo" class="hero-image github-logo-img">
+            </div>
+            <div class="hero-content">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span>
+                    <span>UX/UI Design Intern Candidate</span>
+                </div>
+                <h1 class="hero-title">อิทธิวุธ จันทมาลี</h1>
+                <p class="hero-subtitle">Ittiwut Jantamalee</p>
+                <p class="role-desc">
+                    นักศึกษาชั้นปีที่ 4 สาขานวัตกรรมธุรกิจดิจิทัล มุ่งมั่นสร้างสรรค์ Digital Product & Web Experience ที่เรียบง่าย ทันสมัย และตอบโจทย์ผู้ใช้งาน
+                </p>
+                
+                <!-- 3.g. อื่นๆ เพิ่มเติม (Current Focus) -->
+                <div class="current-focus-card">
+                    <div class="focus-header">
+                        <i class="fa-solid fa-sparkles"></i>
+                        <span>Current Focus</span>
+                    </div>
+                    <ul class="focus-list">
+                        <li><i class="fa-solid fa-arrow-right-long"></i> เรียนรู้ React, TypeScript & Modern Web Development</li>
+                        <li><i class="fa-solid fa-arrow-right-long"></i> ฝึกฝน Version Control & Collaboration ผ่าน Git / GitHub</li>
+                        <li><i class="fa-solid fa-arrow-right-long"></i> พัฒนาแอปพลิเคชันซักผ้าเดลิเวอรี่ <strong>"Wash Me"</strong></li>
+                    </ul>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>ติดต่อฉัน</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>ชมผลงาน</span>
+                        <i class="fa-solid fa-arrow-down-long"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.d. Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">CAPABILITIES</span>
+                <h2 class="section-title">ทักษะและความเชี่ยวชาญ</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Languages</h3>
+                    <p class="skill-desc">ภาษาหลักสำหรับพัฒนา Frontend & Logic</p>
+                    <div class="tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">HTML5 / CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3>Frameworks & UI</h3>
+                    <p class="skill-desc">โครงสร้างเว็บและเครื่องมือออกแบบ</p>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Tailwind / CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <h3>Tools & Workflow</h3>
+                    <p class="skill-desc">ระบบควบคุมเวอร์ชันและเครื่องมือพัฒนา</p>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">FlutterFlow</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon-box">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Databases & Backend</h3>
+                    <p class="skill-desc">การจัดการฐานข้อมูลและ BaaS</p>
+                    <div class="tags">
+                        <span class="tag">Supabase</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.e. Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PORTFOLIO</span>
+                <h2 class="section-title">โปรเจกต์ที่โดดเด่น</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Bootcamp Basic Programming (ตรงตามเงื่อนไขข้อ 3.e) -->
+                <div class="project-card highlight">
+                    <div class="project-header">
+                        <span class="badge-accent">Required Project</span>
+                        <div class="project-external-link">
+                            <a href="https://github.com/itwut/Portfolio" target="_blank" title="View Source Code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Bootcamp Basic Programming</h3>
+                        <p>รวบรวมแบบฝึกหัดและการพัฒนาเว็บแอปพลิเคชัน เน้นการจัดโครงสร้างโค้ด HTML/CSS ให้สวยงาม ตอบสนองต่อทุกขนาดหน้าจอ (Responsive Design) และการใช้งาน Git Workflow</p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Git / GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Wash Me -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="badge-muted">Featured Project</span>
+                        <div class="project-external-link">
+                            <a href="https://github.com/itwut/Wash-Me" target="_blank" title="View Source Code"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Wash Me - แอปเดลิเวอรี่ซักผ้า</h3>
+                        <p>แอปพลิเคชันบริการเดลิเวอรี่ซักผ้าสำหรับนักศึกษา ออกแบบ UX/UI ด้วย Figma เชื่อมต่อฐานข้อมูล Supabase แบบ Realtime ช่วยบริหารจัดการคิวและรับส่งเสื้อผ้าอย่างมีประสิทธิภาพ</p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>React</span>
+                            <span>Supabase</span>
+                            <span>FlutterFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.f. Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-box">
+                <span class="section-tag">GET IN TOUCH</span>
+                <h2 class="contact-title">มาร่วมงานหรือพูดคุยกันได้ครับ</h2>
+                <p class="contact-desc">หากคุณกำลังมองหา UX/UI Designer หรือ Frontend Developer รุ่นใหม่ที่พร้อมเรียนรู้ สามารถติดต่อผมได้ผ่านช่องทางด้านล่างนี้</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:pphoom16@gmail.com" class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <span class="label">Email</span>
+                            <span class="value">pphoom16@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/itwut" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="contact-text">
+                            <span class="label">GitHub</span>
+                            <span class="value">github.com/itwut</span>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com" target="_blank" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="contact-text">
+                            <span class="label">LinkedIn</span>
+                            <span class="value">Connect with me</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3.h. Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Ittiwut Jantamalee. Crafted with precision & simplicity.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
