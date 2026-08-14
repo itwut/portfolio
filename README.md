@@ -13,33 +13,61 @@
 ---
 
 ## 📌 About The Project
-เว็บไซต์แสดงผลงานส่วนตัว (Portfolio) รูปแบบ Modern Dark Theme ที่พัฒนาขึ้นเพื่อส่งมอบเป็นงานสรุปประมวลความรู้ในวิชา **Bootcamp Basic Programming** ตัวเว็บถูกออกแบบมาให้รองรับการแสดงผลแบบ **Responsive Design** บนทุกขนาดหน้าจอ และมีเนื้อหาครบถ้วนตามข้อกำหนดโจทย์ 100%
+<div align="center">
+
+  # 👋 สวัสดีครับ! ผม อิทธิวุธ จันทมาลี (Ittiwut)
+
+  **Digital Business Innovation Student | UX/UI Design & Frontend Candidate**
+
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/itwut)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pphoom16@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+
+</div>
 
 ---
 
-## 📋 Requirement Check-list (ข้อ 3)
-- [x] **a. Header:** แสดงชื่อ อิทธิวุธ จันทมาลี (Ittiwut Jantamalee)
-- [x] **b. About me:** เนื้อหาแนะนำตัว นักศึกษาชั้นปีที่ 4 สาขานวัตกรรมธุรกิจดิจิทัล
-- [x] **c. Image:** แสดงผลรูปภาพโลโก้ GitHub
-- [x] **d. Skills:** รวบรวมทักษะภาษา เครื่องมือ และฐานข้อมูล (HTML, CSS, JS, React, Supabase, Git ฯลฯ)
-- [x] **e. Projects:** ใส่โปรเจกต์ **Bootcamp Basic Programming** และโปรเจกต์ **Wash Me**
-- [x] **f. Contact:** ช่องทางการติดต่อ (Email, GitHub, LinkedIn)
-- [x] **g. อื่นๆ เพิ่มเติม:** เพิ่มส่วน Current Focus และ Badge สถานะ
-- [x] **h. Footer:** มีส่วนปิดท้ายหน้าเว็บพร้อมลิขสิทธิ์
+## 🙋‍♂️ About Me (แนะนำตัว)
+
+นักศึกษาชั้นปีที่ 4 สาขานวัตกรรมธุรกิจดิจิทัล มุ่งมั่นพัฒนาศักยภาพด้าน **UX/UI Design** และ **Modern Web Development** มีความสนใจในการสร้างสรรค์ Digital Product ที่เน้น User Experience เรียบง่าย สะดวกต่อผู้ใช้งาน และสามารถนำเทคโนโลยีมาประยุกต์แก้ปัญหาได้จริง
+
+> ⚡ **Current Focus:** กำลังมุ่งมั่นพัฒนาทักษะ React, TypeScript, Git Workflow[cite: 3] และสร้างแอปพลิเคชันซักผ้าเดลิเวอรี่ **"Wash Me"**[cite: 3]
 
 ---
 
-## 🛠️ Tech Stack & Tools
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Fonts & Icons:** Google Fonts (Prompt, Plus Jakarta Sans), FontAwesome Icons
-- **Design & BaaS:** Figma, Supabase, FlutterFlow
-- **Version Control:** Git & GitHub
+## 🛠️ Skills & Capabilities (ทักษะและความเชี่ยวชาญ)
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | HTML5, CSS3, JavaScript, Python |
+| **Frameworks & UI** | React, Tailwind CSS, Figma |
+| **Tools & Workflow** | Git, GitHub, VS Code, FlutterFlow |
+| **Databases & BaaS** | Supabase, PostgreSQL, MySQL |
 
 ---
 
-## 📁 Project Structure
-```text
-my-portfolio/
-├── index.html     # ไฟล์หลักสำหรับโครงสร้างและเนื้อหาหน้าเว็บ
-├── style.css      # ไฟล์จัดตกแต่งความสวยงามและ Responsive Design
-└── README.md      # เอกสารอธิบายรายละเอียดโปรเจกต์
+## 🚀 Featured Projects (ผลงานที่โดดเด่น)
+
+### 1. 🧺 Wash Me - แอปเดลิเวอรี่ซักผ้า
+* **Detail:** แอปพลิเคชันบริการเดลิเวอรี่ซักผ้าสำหรับนักศึกษา ออกแบบ UX/UI ด้วย Figma เชื่อมต่อฐานข้อมูล Supabase แบบ Realtime ช่วยบริหารจัดการคิวและรับส่งเสื้อผ้าอย่างมีประสิทธิภาพ
+* **Tech Stack:** `Figma` `React` `Supabase` `FlutterFlow`
+* **Repository:** [github.com/itwut/Wash-Me](https://github.com/itwut/Wash-Me)
+
+### 2. 💻 Bootcamp Basic Programming & Web App[cite: 3]
+* **Detail:** เว็บไซต์ Portfolio และแบบฝึกหัดพัฒนาเว็บแอปพลิเคชัน เน้นการจัดโครงสร้างโค้ด HTML/CSS ให้สวยงาม ตอบสนองต่อทุกขนาดหน้าจอ (Responsive Design) และการบริหารจัดการเวอร์ชันด้วย Git[cite: 3]
+* **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Git`
+* **Repository:** [github.com/itwut/Portfolio](https://github.com/itwut/Portfolio)
+
+---
+
+## 📬 Contact (ช่องทางการติดต่อ)
+
+* 📧 **Email:** [pphoom16@gmail.com](mailto:pphoom16@gmail.com)
+* 🐙 **GitHub:** [github.com/itwut](https://github.com/itwut)
+* 💼 **LinkedIn:** [Connect with me](#)
+
+---
+
+<div align="center">
+  <sub>Crafted with precision & simplicity • © 2026 Ittiwut Jantamalee</sub>
+</div>
