@@ -41,12 +41,6 @@
 * **Tech Stack:** `Figma` `React` `Supabase` `FlutterFlow`
 * **Repository:** [github.com/itwut/Wash-Me](https://github.com/itwut/Wash-Me)
 
-### 2. 💻 Bootcamp Basic Programming & Web App[cite: 3]
-* **Detail:** เว็บไซต์ Portfolio และแบบฝึกหัดพัฒนาเว็บแอปพลิเคชัน เน้นการจัดโครงสร้างโค้ด HTML/CSS ให้สวยงาม ตอบสนองต่อทุกขนาดหน้าจอ (Responsive Design) และการบริหารจัดการเวอร์ชันด้วย Git[cite: 3]
-* **Tech Stack:** `HTML5` `CSS3` `JavaScript` `Git`
-* **Repository:** [github.com/itwut/Portfolio](https://github.com/itwut/Portfolio)
-
----
 
 ## 📬 Contact (ช่องทางการติดต่อ)
 
